@@ -97,7 +97,7 @@ body.building_version .header_style_01 {
 }
 
 body.building_version .header_style_01 .navbar-default .navbar-nav > li > a {
-    color: #ffffff !important;
+    color: #000 !important;
 }
 
 body.building_version .header_style_01 .navbar-default .navbar-nav > li.active a,
