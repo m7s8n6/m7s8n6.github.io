@@ -25,6 +25,8 @@
    <link rel="stylesheet" href="css/responsive.css">
    <!-- building CSS -->
    <link rel="stylesheet" href="css/building.css">
+   <!-- pageclip -->
+   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
    </head>
    <body class="building_version" data-spy="scroll" data-target=".header">
       <!-- LOADER -->
@@ -133,7 +135,7 @@
                <div class="col-md-8">
                   <div class="contact_form">
                      <div id="message"></div>
-                     <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                     <form id="contactform" class="row pageclip-form" action="https://send.pageclip.co/Nql3snYadWTLGWFpcNO66ZxJRCfudVQR/contact" method="post">
                         <fieldset class="row-fluid">
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                               <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
@@ -160,7 +162,7 @@
                               <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                              <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get a Quote</button>
+                              <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block pageclip-form__submit">Get a Quote</button>
                            </div>
                         </fieldset>
                      </form>
@@ -259,7 +261,9 @@
       <!-- ALL PLUGINS -->
       <script src="js/custom.js"></script>
       <script src="js/portfolio.js"></script>
-      <script src="js/hoverdir.js"></script>   
+      <script src="js/hoverdir.js"></script> 
+        <!-- pageclip  -->
+        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
    </body>
 </html>
 
